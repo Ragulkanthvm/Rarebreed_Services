@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Rarebreed</title>
+<meta name="description" content="Selected Rarebreed projects across websites, mobile apps, software, AI, branding, marketing and UI/UX, with a featured case study.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" type="image/png" href="assets/images/rb_logo.png">
+</head>
+<body>
+<!-- Custom Cursor -->
+<div id="custom-cursor"><img src="assets/images/rb_logo.png" alt="" id="cursor-logo"></div>
+
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand"><img src="assets/images/Homepage-Logo.svg" alt="Rarebreed University" class="brand-logo"></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="industries.html">Industries</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+      <a href="academy.html">Academy</a>
+      <a href="about.html">About</a>
+      <a href="careers.html">Careers</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-ghost btn-sm">Contact</a>
+      <a href="#" class="btn btn-primary btn-sm" data-open-popup>Book Consultation</a>
+    </div>
+    <button class="nav-burger" aria-label="Menu"><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu">
+  <button class="mobile-close">✕</button>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="solutions.html">Solutions</a>
+  <a href="industries.html">Industries</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="academy.html">Academy</a>
+  <a href="about.html">About</a>
+  <a href="careers.html">Careers</a>
+  <a href="blog.html">Blog</a>
+  <a href="contact.html">Contact</a>
+  <a href="#" class="btn btn-primary" data-open-popup>Book Free Consultation</a>
+</div>
+
+<section class="page-hero">
+  <div class="glow"></div>
+  <div class="container">
+    <div class="page-kicker"><a href="index.html">Home</a> / Portfolio</div>
+    <span class="eyebrow">Our work</span>
+    <h1 class="h-display" style="max-width:780px;">Recent work across software, AI, and brand.</h1>
+    <p class="muted mt-24" style="font-size:18px;max-width:620px;">A sample of projects across our five divisions. Filter by category to see relevant work.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="websites">Websites</button>
+      <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+      <button class="filter-btn" data-filter="software">Software</button>
+      <button class="filter-btn" data-filter="ai">AI Projects</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+      <button class="filter-btn" data-filter="marketing">Marketing</button>
+      <button class="filter-btn" data-filter="uiux">UI/UX</button>
+    </div>
+
+    <div class="grid grid-3 gap-24" id="portfolio-grid">
+
+      <div class="portfolio-item show" data-cat="software"><div class="card tilt" style="overflow:hidden;">
+        <div style="height:190px;background:linear-gradient(135deg,#0a2530,#123642);"></div>
+        <div style="padding:22px;"><span class="tag">Software</span><h3 style="font-size:17px;margin-top:12px;">MediCore Hospital ERP</h3><p class="muted mt-8" style="font-size:13.5px;">Patient records, billing and pharmacy in one system for a 200-bed hospital.</p></div>
+      </div></div>
+
+      <div class="portfolio-item show" data-cat="ai"><div class="card tilt" style="overflow:hidden;">
+        <div style="height:190px;background:linear-gradient(135deg,#0a2b28,#0f3a34);"></div>
+        <div style="padding:22px;"><span class="tag">AI Project</span><h3 style="font-size:17px;margin-top:12px;">Retail WhatsApp Concierge</h3><p class="muted mt-8" style="font-size:13.5px;">AI bot handling 70% of support tickets for a D2C retail brand.</p></div>
+      </div></div>
+
+      <div class="portfolio-item show" data-cat="branding"><div class="card tilt" style="overflow:hidden;">
+        <div style="height:190px;background:linear-gradient(135deg,#0a1e30,#0f2c42);"></div>
+        <div style="padding:22px;"><span class="tag">Branding</span><h3 style="font-size:17px;margin-top:12px;">Northfield Realty Rebrand</h3><p class="muted mt-8" style="font-size:13.5px;">Identity, website and listing campaigns for a real-estate agency.</p></div>
+      </div></div>
+
+      <div class="portfolio-item show" data-cat="websites"><div class="card tilt" style="overflow:hidden;">
+        <div style="height:190px;background:linear-gradient(135deg,#123642,#0a2530);"></div>
+        <div style="padding:22px;"><span class="tag">Websites</span><h3 style="font-size:17px;margin-top:12px;">Greenleaf School Website</h3><p class="muted mt-8" style="font-size:13.5px;">Admissions-focused website with an integrated enquiry form.</p></div>
+      </div></div>
+
+      <div class="portfolio-item show" data-cat="mobile"><div class="card tilt" style="overflow:hidden;">
+        <div style="height:190px;background:linear-gradient(135deg,#0f3a34,#0a2b28);"></div>
+        <div style="padding:22px;"><span class="tag">Mobile App</span><h3 style="font-size:17px;margin-top:12px;">FitTrack Wellness App</h3><p class="muted mt-8" style="font-size:13.5px;">Flutter app for a fitness studio chain with class booking.</p></div>
+      </div></div>
+
+      <div class="portfolio-item show" data-cat="marketing"><div class="card tilt" style="overflow:hidden;">
+        <div style="height:190px;background:linear-gradient(135deg,#0f2c42,#123642);"></div>
+        <div style="padding:22px;"><span class="tag">Marketing</span><h3 style="font-size:17px;margin-top:12px;">Coastal Foods Growth Campaign</h3><p class="muted mt-8" style="font-size:13.5px;">SEO + paid ads engine that tripled qualified leads in 4 months.</p></div>
+      </div></div>
+
+      <div class="portfolio-item show" data-cat="software"><div class="card tilt" style="overflow:hidden;">
+        <div style="height:190px;background:linear-gradient(135deg,#0a2530,#0f3a34);"></div>
+        <div style="padding:22px;"><span class="tag">Software</span><h3 style="font-size:17px;margin-top:12px;">Urban Retail POS</h3><p class="muted mt-8" style="font-size:13.5px;">Point-of-sale and inventory sync across 12 store locations.</p></div>
+      </div></div>
+
+      <div class="portfolio-item show" data-cat="uiux"><div class="card tilt" style="overflow:hidden;">
+        <div style="height:190px;background:linear-gradient(135deg,#123642,#0f2c42);"></div>
+        <div style="padding:22px;"><span class="tag">UI/UX</span><h3 style="font-size:17px;margin-top:12px;">Nimbus Finance App Redesign</h3><p class="muted mt-8" style="font-size:13.5px;">Full UX audit and redesign, improving task completion by 34%.</p></div>
+      </div></div>
+
+      <div class="portfolio-item show" data-cat="ai software"><div class="card tilt" style="overflow:hidden;">
+        <div style="height:190px;background:linear-gradient(135deg,#0a2b28,#123642);"></div>
+        <div style="padding:22px;"><span class="tag">AI + Software</span><h3 style="font-size:17px;margin-top:12px;">LogiRoute Fleet Automation</h3><p class="muted mt-8" style="font-size:13.5px;">Predictive routing and automated dispatch for a logistics fleet.</p></div>
+      </div></div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CASE STUDY -->
+<section class="section" style="background:var(--bg-2);">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Case study</span>
+      <h2>MediCore Hospital ERP</h2>
+    </div>
+    <div class="grid grid-2 gap-24 reveal reveal-delay-1">
+      <div class="card" style="padding:30px;"><h3 style="font-size:15px;color:var(--secondary);">Problem</h3><p class="muted mt-8" style="font-size:14.5px;">Patient records, billing and pharmacy stock were tracked across three disconnected tools, causing daily reconciliation errors.</p></div>
+      <div class="card" style="padding:30px;"><h3 style="font-size:15px;color:var(--secondary);">Solution</h3><p class="muted mt-8" style="font-size:14.5px;">A unified ERP with role-based dashboards for reception, doctors, billing and pharmacy, rolled out department by department.</p></div>
+      <div class="card" style="padding:30px;"><h3 style="font-size:15px;color:var(--secondary);">Technology</h3><p class="muted mt-8" style="font-size:14.5px;">React, Node.js, PostgreSQL, deployed on AWS with role-based access control and audit logging.</p></div>
+      <div class="card" style="padding:30px;"><h3 style="font-size:15px;color:var(--secondary);">Result</h3><p class="muted mt-8" style="font-size:14.5px;">Zero-downtime rollout, reconciliation time cut from hours to minutes, and full audit trail for compliance.</p></div>
+    </div>
+    <div class="card testi-card tilt reveal reveal-delay-2 mt-24" style="max-width:640px;">
+      <div class="stars">★★★★★</div>
+      <p class="testi-quote">They understood our hospital workflow faster than vendors we'd worked with for years, and the rollout had zero downtime.</p>
+      <div class="testi-person"><div class="avatar">RM</div><div><div class="name">Dr. Ramesh M.</div><div class="role">Medical Director, Coimbatore</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="glass reveal" style="padding:60px;border-radius:var(--radius-lg);text-align:center;">
+      <h2 style="font-size:clamp(24px,3.2vw,36px);">Want results like these?</h2>
+      <a href="contact.html" class="btn btn-primary mt-32">Start Your Project</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="assets/images/Homepage-Logo.svg" alt="Rarebreed University" class="brand-logo"></a>
+        <p>Rare minds, extraordinary solutions. We build technology that builds businesses — software, AI, branding and growth, under one roof.</p>
+        <div class="social-row">
+          <a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="Facebook">fb</a><a href="#" aria-label="GitHub">gh</a><a href="#" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Company</h4><a href="about.html">About</a><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="academy.html">Academy</a></div>
+      <div class="footer-col"><h4>Explore</h4><a href="portfolio.html">Portfolio</a><a href="blog.html">Blog</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col"><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Refund Policy</a><a href="#">Cookies</a></div>
+      <div class="footer-col">
+        <h4>Stay in the loop</h4>
+        <p class="muted" style="font-size:13.5px;">Product notes, industry playbooks, and the odd hackathon invite.</p>
+        <form class="newsletter" data-fake-submit><input type="email" placeholder="you@company.com" required><button type="submit" aria-label="Subscribe">→</button></form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span class="cur-year"></span> Rarebreed. All rights reserved.</p>
+      <p>Coimbatore, Tamil Nadu, India · hello@rarebreed.in</p>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/91XXXXXXXXXX" class="floating-wa" aria-label="Chat on WhatsApp" target="_blank">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.1 3.3 5.2 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.4C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3 .9.9-2.9-.2-.3C3.5 14.9 3 13.5 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+</a>
+
+<div class="popup-overlay" id="consult-popup">
+  <div class="popup-card glass">
+    <button class="popup-close" aria-label="Close">✕</button>
+    <span class="eyebrow">Free consultation</span>
+    <h3 style="font-size:24px;margin-bottom:8px;">Let's scope your project</h3>
+    <p class="muted" style="font-size:14px;margin-bottom:20px;">30 minutes, no pitch deck — just your goals and an honest read on scope, timeline and budget.</p>
+    <form data-fake-submit>
+      <div class="field"><label>Full name</label><input type="text" required></div>
+      <div class="field"><label>WhatsApp / phone</label><input type="tel" required></div>
+      <div class="field"><label>What are you building?</label><input type="text" placeholder="e.g. Hospital ERP, AI chatbot..."></div>
+      <button type="submit" class="btn btn-primary btn-block mt-8">Book Free Consultation</button>
+    </form>
+  </div>
+</div>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
